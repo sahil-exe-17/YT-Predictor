@@ -6,14 +6,14 @@ A **keyless** YouTube analytics dashboard built with Python & Streamlit. No YouT
 - 📊 **Full Channel Analytics** — Subscribers, views, video count scraped directly from YouTube
 - 📈 **Growth History & Forecasting** — 90-day subscriber predictions powered by Facebook Prophet
 - ⚔️ **Rival Battle** — Side-by-side competitor comparison
-- 🤖 **6 AI-Powered Tools** (powered by Google Gemini):
+- 🤖 **6 Expert AI Modules** (Logic-Powered & Keyless):
   - Title Optimizer
   - Growth Coach
   - Competitor Gap Analyzer
-  - FAQ Extractor from Comments
-  - Weekly AI Summary
-  - Viral Potential Scorer
-- 🎭 **Demo Mode** — Works without any API key using simulated data
+  - FAQ Intelligence
+  - Weekly Briefing
+  - Predictive Viral Scorer
+- 🎭 **Zero-Config Deployment** — Works out-of-the-box without any account or API keys!
 
 ## 🛠️ Local Setup
 

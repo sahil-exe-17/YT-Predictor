@@ -224,9 +224,7 @@ for key in ["channel_info", "videos_df", "history_df", "forecast", "milestones",
 st.markdown('<div class="main-title">📈 YT Predictor</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Advanced YouTube Analytics & Growth Prediction Engine</div>', unsafe_allow_html=True)
 
-# API Mode Notification
-if not os.getenv("GEMINI_API_KEY") or "your_" in os.getenv("GEMINI_API_KEY", ""):
-    st.info("💡 Running in **Standalone Mode** (Simulated AI results). Add a Gemini API Key to .env for live analysis.")
+# Control Panel with refined design
 
 with st.container():
     st.markdown('<div class="control-panel">', unsafe_allow_html=True)
