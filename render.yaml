@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: yt-predictor
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: GEMINI_API_KEY
+        sync: false # Must be set in Render dashboard
+      - key: YOUTUBE_API_KEY
+        sync: false # Must be set in Render dashboard

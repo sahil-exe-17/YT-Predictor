@@ -45,16 +45,23 @@ streamlit run app.py
 ```
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
-## ☁️ Deploy on Streamlit Cloud (Free)
+## ☁️ Deployment
 
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Click **"New App"** → Connect your GitHub repo → Set `app.py` as the main file
-4. In **Secrets**, add:
+### Option 1: Streamlit Community Cloud (Easiest)
+1. Push your code to GitHub.
+2. Visit [share.streamlit.io](https://share.streamlit.io).
+3. Connect your repo and set `app.py` as the main file.
+4. **Important**: Go to **Advanced Settings** → **Secrets** and paste:
    ```toml
-   GEMINI_API_KEY = "your_key_here"
+   GEMINI_API_KEY = "your_key"
+   YOUTUBE_API_KEY = "your_key"
    ```
-5. Click **Deploy** 🚀
+
+### Option 2: Render.com
+This repo includes a `render.yaml` for one-click deployment.
+1. Connect your GitHub to Render.
+2. Select **"Blueprint"** or simply "Web Service".
+3. Add your environment variables in the Render Dashboard.
 
 ## 📦 Tech Stack
 | Layer | Technology |
